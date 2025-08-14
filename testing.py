@@ -32,3 +32,5 @@ class Time:
 
 t1=Time(24,1,1)
 print(t1)      
+
+# The code doesn't look bad at all
