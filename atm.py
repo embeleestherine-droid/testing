@@ -4,6 +4,7 @@
 balance = 5000  # starting balance
 pin = "1234"    # ATM PIN
 
+
 # Authenticate user
 print("==== Welcome to Python ATM ====")
 entered_pin = input("Enter your ATM PIN: ")
@@ -45,3 +46,6 @@ if entered_pin == pin:
             print("Invalid option. Please try again.")
 else:
     print("Incorrect PIN. Access denied.")
+
+#this code has a problem with showing the balance
+#maybe we need to relook at it
